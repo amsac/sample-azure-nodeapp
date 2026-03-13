@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Hello from Azure App Service learning v1!");
+  res.send("Hello from Azure App Service learning!");
 });
 
 const port = process.env.PORT || 3000;
